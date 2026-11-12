@@ -98,11 +98,9 @@ Inside the loop, `myStudents[i]` is the current item. You can do anything with i
 ```javascript
 for (let i = 0; i < myStudents.length; i += 1) {
   if (myStudents[i] == 'Claire') {
-    fill(255, 0, 0);
+    myStudents[i] += '!';
   }
-  else {
-    fill(0);
-  }
+ }
   text(myStudents[i], 20, 150 + i * 20);
 }
 ```

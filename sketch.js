@@ -18,7 +18,7 @@ function setup() {
 
   removeButton = createButton("Delete");
   removeButton.position(350, 48);
-  removeButton.mousePressed(removeItem);
+  removeButton.mousePressed(removeGroceryItem);
 }
 
 function draw() {
@@ -36,6 +36,6 @@ function pressSubmit() {
 
 }
 
-function removeItem() {
+function removeGroceryItem() {
 
 }
